@@ -11,6 +11,7 @@ import datetime
 detail = bt.get_market_detail("BTC")
 print(detail)
 
+
 # orderbook = bt.get_orderbook("BTC")
 # bids = orderbook['bids']
 # asks = orderbook['asks']

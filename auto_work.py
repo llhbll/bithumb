@@ -34,7 +34,7 @@ def sell_crypto_currency(ticker):
     bithumb.sell_market_order(ticker, unit)
 
 # 빗썸에서 connect key와 Secret key 받아서 bithumb.txt에 2줄로 넣기
-with open("bithumb.txt") as f:
+with open("lhb.txt") as f:
 lines = f.readlines()
 key = lines[0].strip()
 secret = lines[1].strip()
